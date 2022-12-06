@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.appContainer {
+    width: 550px; 
+    height: 550px; 
+    border-radius: 10px; 
+    background-color: #1F2937
+}
+
+
+/* picker header/ drop down & button */
+
+.colorPicker {
+    width: inherit; 
+    padding: 1rem 0 1rem 0; 
+    display: flex;
+    justify-content: space-around;
+}
+
+#colorPickerInput {
+    width: 3rem;
+    height: 2.2rem;
+    background: #1F2937;
+    border-style: none;
+}
+
+#colorScheme {
+    width: 15rem;
+    padding: 0.5rem
+    
+}
+
+select {
+    background-color: #1F2937;
+    color: white; 
+}
+
+.btn {
+    width: 10rem;
+    background-color: #3D4B60;
+    color: white; 
+    border-style: none; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    height: 2.2rem
+}
+
+/* colorContainer,output and hexcodes */
+
+.colorOutput {
+    margin: 0 0.5rem;
+}
+
+.colorContainer {
+    display: flex;
+}
+
+#copyConfirmation {
+    display: none;
+    opacity: 0; 
+    color:white;
+    position: absolute;
+    margin: 220px 0 0 230px
+}
+
+.fade-out {
+    animation: formFade 1s ease-in-out;
+}
+
+
+@keyframes formFade {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+    
+
+}
+
+.colorBlock {
+    padding: 0;
+    width: 110px;
+    height: 27rem;
+    height: relative; 
+    border: 1px solid green; 
+}
+
+.colorP {
+    display: flex;
+    width: inherit; 
+    justify-content: space-around;
+}
+
+.colorP p {
+    color: white; 
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorGen</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="appContainer">
+        <!-- picker, dropdown with types, get color button -->
+        <section class="colorPicker">
+            <input id="colorPickerInput" type="color">
+            <select name="colorScheme" id="colorScheme">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-Dark</option>
+                <option value="monochrome-light">Monochrome-Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="colorBtn" class="btn">Get Color Scheme</button>
+        </section>
+
+        <!-- color scheme outputs -->
+        <section class="colorOutput">
+            <div class="colorContainer">
+                <div class="colorBlock" id="colorOne"></div>
+                <div class="colorBlock" id="colorTwo"></div>
+                <div class="colorBlock" id="colorThree"></div>
+                <div class="colorBlock" id="colorFour"></div>
+                <div class="colorBlock" id="colorFive"></div>
+                <p id="copyConfirmation" class="fade-out">hex copied!</p>
+            </div>
+
+            <div class="colorP">
+                <p id="colorHexOne">#FFFFF</p>
+                <p id="colorHexTwo">#FFFFF</p>
+                <p id="colorHexThree">#FFFFF</p>
+                <p id="colorHexFour">#FFFFF</p>
+                <p id="colorHexFive">#FFFFF</p>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
