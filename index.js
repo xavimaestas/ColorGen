@@ -1,7 +1,6 @@
 const btn = document.getElementById("colorBtn")
 const picker = document.getElementById("colorPickerInput")
 const scheme = document.getElementById("colorScheme")
-const colorArray = []
 let colorOne = document.getElementById("colorOne")
 let colorTwo = document.getElementById("colorTwo")
 let colorThree = document.getElementById("colorThree")
@@ -138,14 +137,6 @@ function copyFade(){
 function reset(){
     document.getElementById("copyConfirmation").removeAttribute('style')
 }
-
-
-
-
-
-
-
-
 
 
 getColor()
