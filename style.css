@@ -100,6 +100,13 @@ select {
     color: white; 
 }
 
+.colorBlock:hover,
+.colorBlock:active,
+.colorP p:hover,
+.colorP p:active {
+    cursor: pointer;
+}
+
 /* media query for smaller screens */
 
 @media (max-width: 600px){
