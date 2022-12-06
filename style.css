@@ -149,4 +149,9 @@ select {
         height: 24rem;
     }
 
+    #copyConfirmation {
+        margin: 220px 0 0 157px;
+        font-size: 0.75rem;
+    }
+
 }
