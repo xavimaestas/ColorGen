@@ -145,7 +145,7 @@ select {
     }
 
     .colorBlock {
-        width: 110px;
+        width: relative;
         height: 24rem;
     }
 
