@@ -134,11 +134,6 @@ function copyFade(){
 
 
 
-function reset(){
-    document.getElementById("copyConfirmation").removeAttribute('style')
-}
-
-
 getColor()
 
 
